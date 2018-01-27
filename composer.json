@@ -1,0 +1,24 @@
+{
+    "name": "cedricziel/fints-scraper",
+    "description": "Scrapes FintTS API information",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "fabpot/goutte": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CedricZiel\\FinTSScraper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cedric Ziel",
+            "email": "cedric@cedric-ziel.com"
+        }
+    ]
+}
