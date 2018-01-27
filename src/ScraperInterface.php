@@ -1,6 +1,6 @@
 <?php
 
-namespace CedricZiel\FinTSScraper;
+namespace CedricZiel\FinTSScraper\De;
 
 interface ScraperInterface
 {

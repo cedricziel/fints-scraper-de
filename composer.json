@@ -1,9 +1,9 @@
 {
-    "name": "cedricziel/fints-scraper",
-    "description": "Scrapes FintTS API information",
+    "name": "cedricziel/fints-scraper-de",
+    "description": "Scrapes german FintTS API information",
     "type": "library",
     "require": {
-        "php": "^7.0",
+        "php": "^7.1.3",
         "fabpot/goutte": "^3.2"
     },
     "require-dev": {
@@ -12,7 +12,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "CedricZiel\\FinTSScraper\\": "src/"
+            "CedricZiel\\FinTSScraper\\De\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CedricZiel\\FinTSScraper\\De\\": "test/"
         }
     },
     "authors": [

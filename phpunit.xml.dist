@@ -1,0 +1,12 @@
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.5/phpunit.xsd"
+        backupGlobals="true"
+        cacheTokens="false"
+        bootstrap="test/bootstrap.php">
+    <testsuites>
+        <testsuite name="FinTS Scraper">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
